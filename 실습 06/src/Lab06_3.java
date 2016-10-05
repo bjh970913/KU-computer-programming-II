@@ -5,7 +5,7 @@ import java.util.Scanner;
  * Created by bjh970913 on 05/10/2016.
  * KU-computer-programming-II
  */
-public class prac06_3 {
+public class Lab06_3 {
     public static void main(String[] args) {
         ArrayList<ArrayList<Double>> points = new ArrayList<>();
         ArrayList<Double> sides = new ArrayList<>();

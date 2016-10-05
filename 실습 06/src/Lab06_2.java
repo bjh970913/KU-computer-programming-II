@@ -2,7 +2,7 @@
  * Created by bjh970913 on 05/10/2016.
  * KU-computer-programming-II
  */
-public class prac06_2 {
+public class Lab06_2 {
     public static void main(String[] args) {
         double a, b, c, d, e, f;
         double x, y;

@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by bjh970913 on 05/10/2016.
  * KU-computer-programming-II
  */
-public class prac06_5 {
+public class Lab06_5 {
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>();
         int tmp;

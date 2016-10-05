@@ -4,7 +4,7 @@ import java.util.Scanner;
  * Created by bjh970913 on 05/10/2016.
  * KU-computer-programming-II
  */
-public class prac06_4 {
+public class Lab06_4 {
     public static void main(String[] args) {
         double a, b, c;
         double r1, r2;
