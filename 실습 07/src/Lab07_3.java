@@ -9,10 +9,10 @@ public class Lab07_3 {
         arr[0] = 1.0;
 
         for (int i = 1; i <= 100000; i++) {
-            arr[i] = arr[i - 1] * (1 / (double) i);
+            arr[i] = arr[i - 1] / (double) i;
         }
 
-        double sum = 0;
+        double sum = 0, diff = 0;
 
         for (int i = 200; i >= 0; i--) {
             sum += arr[i];
@@ -21,7 +21,9 @@ public class Lab07_3 {
 
         for (int i = 100000; i > 200; i--) {
             sum += arr[i];
+            diff += arr[i];
         }
         System.out.println("Estimated e with n=100000 : " + sum);
+        System.out.println("Difference is  : " + diff);
     }
 }

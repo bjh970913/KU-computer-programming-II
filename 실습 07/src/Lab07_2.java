@@ -4,10 +4,12 @@
  */
 public class Lab07_2 {
     public static void main(String[] args) {
-        double sum = 0;
+        double sum_rtl = 0, sum_ltr = 0;
         for (int i = 50000; i > 0; i--) {
-            sum += (1 / (double) i);
+            sum_rtl += (1 / (double) i);
+            sum_ltr += (1 / (double) (50001 - i));
         }
-        System.out.println(sum);
+        System.out.println("From right to left : " + sum_rtl);
+        System.out.println("From left to right : " + sum_ltr);
     }
 }
