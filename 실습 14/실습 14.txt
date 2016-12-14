@@ -11,25 +11,25 @@ x.getClass()의 타입은 java.lang.Object 클래스이다.
 1-d)
 x.getClass().getName() 의 타입은 String 이다.
 
-2-a
+2-a)
 public E remove(int index)
 index 에 해당하는 위치의 엘리먼트를 삭제
 
 public boolean remove(Object o)
 처름으로 o와 같은 엘리먼트를 삭제
 
-2-b
+2-b)
 3
 4
 5
 
-2-c
+2-c)
 x의 타입은 Object 이다.
 
-2-d
+2-d)
 [4, 5]
 
-2-e
+2-e)
 Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
 	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
 	at java.util.ArrayList.remove(ArrayList.java:492)
@@ -42,7 +42,7 @@ Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 3, Size: 
 
 ArrayList의 길이 범위를 초과하는 인덱스에 접근하였다
 
-3-a
+3-a)
 2
 3
 5
@@ -74,10 +74,10 @@ ArrayList의 길이 범위를 초과하는 인덱스에 접근하였다
 109
 113
 
-3-b
+3-b)
 출력된 정수는 모두 소수이다
 
-3-c
+3-c)
 import java.util.ArrayList;
 
 public class Prime {
@@ -102,7 +102,7 @@ public class Prime {
     }
 }
 
-4
+4)
 ..9
 .8
 5

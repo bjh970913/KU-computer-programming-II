@@ -1,0 +1,43 @@
+1-a
+1
+2
+3
+
+1-b
+class java.lang.Integer
+1
+class java.lang.Integer
+2
+class java.lang.Integer
+3
+
+
+1-c
+[1, 2, 3]
+
+2-a
+[1, 2, 3, 4]
+[1, 2, 3, 4]
+
+2-b
+[1, 2, 3]
+[1, 2, 3, 4]
+
+2-c
+a는 a1의 참조를 a2에 대입하여 a1.add 와 a2.add 의 기능이 같은 동작을 하여 a1과 a2의 출력 결과가 같았고
+b는 a2의 생성자에 a1을 대입하여 a1의 데이터를 가지지만 다른 객체가 생성되어 a1과 a2의 출력 결과가 달라진다.
+
+3-a
+class Rational extends Number implements Comparable<Rational>
+{ ... }
+
+class RationalCmp implements Comparator<Long>
+{
+    @Override
+    public int compare(long x, long y) {
+    ...
+    }
+}
+
+3-b
+첨부파일 Rational.java, Test01.java 참조
